@@ -1,0 +1,117 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    margin:10px 10px;
+    font-weight: 700;
+    position:relative;
+    top:200px;
+}
+.contact-title h1{
+       position:relative;
+       top:20px;
+       padding:0px 30px;
+       font-size:70px;
+       font-weight:700;
+}
+.contact-title hr{
+    position:relative;
+    top:20px;
+    border:1px solid black;
+}
+.contact-section{
+    display: flex;
+    gap:300px;
+
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.contact-left h1 {
+    font-size:70px;
+    font-weight: 700;
+    background: linear-gradient(270deg , #DF8908 80% , #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:20px 0px;
+}
+.contact-left p{
+    max-width:550px;
+    color:black;
+    font-size:20px;
+    line-height: 35px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    font-size:12px;
+}
+.contact-detail{
+    display: flex;
+    align-items:center;
+    gap:15px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:15px;
+    
+}
+.contact-right label{
+    color:black;
+    font-size:22px;
+    font-weight:500px;
+}
+.contact-right input{
+    border:1px solid grey;
+    width:500px;
+    height:50px;
+    padding-left: 20px;
+    border-radius:4px;
+    background-color: black;
+    color: white ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+}
+.contact-right textarea{
+    width:500px;
+    border:1px solid grey;
+    padding:20px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+   
+}
+.contact-submit{
+    border:none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(270deg , #DF8908 -5.9% , #B415FF 100%);
+    font-size: 15px;
+    padding:10px 40px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.contact-submit:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.whatsapp{
+    font-size:30px;
+    position: relative;
+    top:15px;
+    width: 29px;
+    height:30px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+

@@ -1,0 +1,44 @@
+.mywork{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin:160px 150px;
+}
+.mywork-title h1{
+    position:relative;
+    top:20px;
+     padding : 0px 30px;
+     font-size: 50px;
+     font-weight:600 ;
+}
+.mywork-title hr{
+    border:1px solid black;
+    position:relative;
+    top:20px;
+
+}
+.mywork-container{
+    margin-top:29px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.mywork-container img {
+    box-sizing: border-box;
+    width:320px;
+    height:190px;
+ transition: 0.3s;
+ cursor :pointer;
+}
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border:2px solid grey;
+    border-radius: 20px;
+} 
+
+.Image{
+    border:2px solid  white ;
+    border-radius: 25px;
+}

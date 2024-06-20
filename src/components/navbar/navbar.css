@@ -1,0 +1,82 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    color: white;
+    position:fixed;
+   
+    
+}
+
+.navbar h2 span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar h2 {
+    margin-left: 30px;
+}
+
+.nav-menu {
+    color:grey;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 70px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.nav-connect {
+    font-size:18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 20px;
+}
+.nav-connect:hover{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+   transition: 0.5s;
+
+}
+
+.nav-menu li:hover {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    height: 25px;
+    transform: scale(1.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.openbar{
+    position:absolute;
+    top:20px;
+    right:25px;
+    font-size:25px;
+    display:none;
+}
+.closebar{
+    display:none;
+}
+
+ 
+    
+
+
+     
+
+
+
+
